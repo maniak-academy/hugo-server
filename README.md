@@ -28,3 +28,7 @@ Default Command
 
 CMD ["hugo", "server", "--bind", "0.0.0.0"]: Specifies the default command to run when the container starts. This command starts the Hugo server and configures it to listen on all network interfaces within the container.
 When you build and run a container using this Dockerfile, it will start a Hugo server ready to serve your static site. This setup is particularly useful for development environments where you want to work with Hugo on an ARM-based system.
+
+
+
+docker run -d -p 5000:5000 
