@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   hugo:
-    image: sebbycorp/xademy-hugo-server
+    image: sebbycorp/xademy-hugo-server:latest
     volumes:
       - .:/hugo
     ports:
