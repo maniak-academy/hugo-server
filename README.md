@@ -1,5 +1,3 @@
-# dockerfile-demo
-
 # Dockerfile for Hugo with Go on Ubuntu
 
 This Dockerfile creates an image based on Ubuntu 22.04, tailored for running a Hugo site with Go support. It is designed to work with both x86_64 and ARM architectures.
