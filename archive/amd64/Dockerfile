@@ -13,9 +13,9 @@ RUN apt-get update && apt-get install -y \
 
 # Install Go
 ENV GO_VERSION 1.18
-RUN wget https://golang.org/dl/go$GO_VERSION.linux-amd64.tar.gz && \
-    tar -C /usr/local -xzf go$GO_VERSION.linux-amd64.tar.gz && \
-    rm go$GO_VERSION.linux-amd64.tar.gz
+RUN wget https://go.dev/dl/go1.21.5.linux-amd64.tar.gz && \
+    tar -C /usr/local -xzf go1.21.5.linux-amd64.tar.gz && \
+    rm go1.21.5.linux-amd64.tar.gz
 ENV PATH $PATH:/usr/local/go/bin
 
 # Install Hugo
